@@ -8,20 +8,20 @@
 <meta name="robots" content="none">
 <meta name="robots" content="noindex">
 <meta name="robots" content="nofollow">
-<title>W318</title>
+<title>test</title>
 </head>
 <body>
-<h2>松田研究室（W318）</h2>
+<h2>研究室</h2>
 <hr>
 <?php
 $filename = 'reserchers';
 $reserchers = file($filename);
 if (empty($reserchers)) {
-	echo 'ただいまW318には誰もいません。';
+	echo 'ただいま誰もいません。';
 	echo "\n</body>\n</html>";
 	exit();
 } else {
-	echo "現在W318には\n<br>\n<br>";
+	echo "現在\n<br>\n<br>";
 }
 foreach ($reserchers as $resercher) {
 	echo $resercher.'<br>';
